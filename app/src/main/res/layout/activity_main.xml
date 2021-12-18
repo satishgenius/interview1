@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="327dp"
+        android:layout_height="138dp"
+        android:layout_margin="34sp"
+        app:srcCompat="@drawable/bunty1" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:gravity="center"
+        android:text="hi Amounger"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="36sp"
+        android:drawableStart="@drawable/ass"
+        android:drawableLeft="@drawable/ass"
+        android:drawablePadding="20sp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextTextPersonName1"
+        android:drawableStart="@drawable/ass1"
+        android:drawableLeft="@drawable/ass1"
+        android:drawablePadding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="36sp"
+        android:inputType="textPersonName"
+        android:hint="password" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+       android:layout_marginLeft="150dp"
+
+        android:layout_height="wrap_content"
+        android:text="login" />
+</LinearLayout>
